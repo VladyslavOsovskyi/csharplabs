@@ -142,7 +142,7 @@ namespace Lab2_Var14
             Console.Write("Введіть розмірність квадратної матриці (n): ");
             int n = int.Parse(Console.ReadLine());
 
-            int[,] arr2D = new int[n, n];ч
+            int[,] arr2D = new int[n, n];
             int[] arr1D = new int[n * n];
 
             Console.WriteLine("Введіть елементи матриці:");
